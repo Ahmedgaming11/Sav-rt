@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فتح وتعديل ملفات SAV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>فتح وتعديل ملفات SAV</h1>
+        <input type="file" id="fileInput" accept=".sav">
+        <button id="uploadButton" class="green-button">رفع ملف</button>
+
+        <div id="fileContent" class="file-content"></div>
+        
+        <textarea id="editContent" rows="10" cols="50" placeholder="قم بتعديل المحتوى هنا..."></textarea>
+        
+        <button id="downloadButton" class="green-button" style="display:none;">تحميل الملف المعدل</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
